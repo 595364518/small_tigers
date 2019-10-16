@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>主页</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
 </head>
 <body>
     <p th:text="'Hello'+${name}+' 小伙伴'" style="color: aqua; font-style: italic; font-size: 24px;"></p>
+    <div class="showing">
+        <p><a href="/login">登录</a></p>
+        <p><a href="/regist">注册</a></p>
+    </div>
 </body>
 </html>

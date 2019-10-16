@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>注册失败</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+    <div class="showing">
+        <p th:utext="${user1.getUsername()}+'已存在'" style="text-align: center"></p>
+        <p>注册失败</p>
+    </div>
+</body>
+</html>
