@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>发生异常</title>
+</head>
+<body>
+    <div style="background: red; width: 80%;height: 150px;margin: 0 auto;">
+        <p th:utext="'发生异常,异常为:'+${exception}" style=" text-align: center; line-height: 50px;"></p>
+        <p th:utext="'发生异常的页面是:'+${url}" style="text-align: center;line-height: 50px;"></p>
+    </div>
+</body>
+</html>
